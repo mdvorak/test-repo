@@ -15,20 +15,11 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
+    outputs:
+      version: ${{ steps.version.outputs.version }}
     steps:
-      - name: Automatic Version
-        if: ${{ github.event.inputs.version == 'auto' }}
-        run: |
-          VERSION=TODO
-          echo "::set-output name=version::$VERSION"
-
-      - name: Static Version
+      - name: Determine Version
+        id: version
         run: echo "::set-output name=version::$VERSION"
         env:
           VERSION: ${{ github.event.inputs.version }}
-
-  build:
-    uses: ./build.yaml
-    with:
-      version: ${{ 
-

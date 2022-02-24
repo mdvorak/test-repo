@@ -25,6 +25,6 @@ jobs:
           VERSION: ${{ github.event.inputs.version }}
 
       - name: Release
-        uses: elgohr/Github-Release-Action@v3.1
+        uses: softprops/action-gh-release@v1
         with:
-          release: ${{ steps.version.outputs.version }}
+          tag_name: ${{ steps.version.outputs.version }}

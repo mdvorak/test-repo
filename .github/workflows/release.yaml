@@ -1,0 +1,34 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "New application version, must follow semver."
+        type: string
+        required: true
+        default: "auto"
+
+jobs:
+  release:
+    runs-on: [ self-hosted, linux, default ]
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Automatic Version
+        if: ${{ github.event.inputs.version == 'auto' }}
+        run: |
+          VERSION=TODO
+          echo "::set-output name=version::$VERSION"
+
+      - name: Static Version
+        run: echo "::set-output name=version::$VERSION"
+        env:
+          VERSION: ${{ github.event.inputs.version }}
+
+  build:
+    uses: ./build.yaml
+    with:
+      version: ${{ 
+

@@ -23,3 +23,8 @@ jobs:
         run: echo "::set-output name=version::$VERSION"
         env:
           VERSION: ${{ github.event.inputs.version }}
+
+      - name: Release
+        uses: elgohr/Github-Release-Action@v3.1
+        with:
+          release: ${{ steps.version.outputs.version }}

@@ -28,3 +28,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.version.outputs.version }}
+
+  build:
+    needs: [release]
+    uses: mdvorak/test-repo/.github/workflows/build.yaml@main
+    with:
+      version: ${{ needs.release.outputs.version }}

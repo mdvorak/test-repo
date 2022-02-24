@@ -8,17 +8,16 @@ on:
         type: string
         required: true
 
-env:
-  GITHUB_REF_NAME: ${{ inputs.version }}
-  GITHUB_REF: refs/tags/${{ inputs.version }}
-  GITHUB_REF_TYPE: tag
-
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
       contents: read
+    env:
+      GITHUB_REF_NAME: ${{ inputs.version }}
+      GITHUB_REF: refs/tags/${{ inputs.version }}
+      GITHUB_REF_TYPE: tag
     steps:
       # TEST
       - name: Checkout

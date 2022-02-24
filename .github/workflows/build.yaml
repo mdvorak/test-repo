@@ -14,16 +14,15 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: read
-    env:
-      GITHUB_REF_NAME: ${{ inputs.version }}
-      GITHUB_REF: refs/tags/${{ inputs.version }}
-      GITHUB_REF_TYPE: tag
     steps:
       # TEST
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: ${{ inputs.version }}
 
       - name: Notice
         run: |
           echo "${GITHUB_REF_TYPE}-${GITHUB_REF_NAME//[\/]/-}.${GITHUB_SHA::8}"
           echo '${{ github.ref_name }}'
+          git status

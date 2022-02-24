@@ -1,0 +1,37 @@
+name: Build
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore: [ "**.md" ]
+    tags: [ "v* " ]
+  pull_request:
+    branches: [ "**" ]
+    paths-ignore: [ "**.md" ]
+  workflow_dispatch:
+  workflow_call:
+  workflow_run:
+    types: [ completed ]
+    workflows: [ release ]
+
+env:
+  CHART_DIR: chart/
+  CHART_REPOSITORY: https://artifactory.csin.cz/artifactory/devlab-zoo-helm-local
+  # TODO these should be provided by runner
+  ARTIFACTORY_HOST: artifactory.csin.cz
+  MVNW_REPOURL: https://artifactory.csin.cz/artifactory/repo1-maven-org-maven2
+
+jobs:
+  build:
+    runs-on: [ self-hosted, linux, default ]
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      # TEST
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Notice
+        run: |
+          echo "${$GITHUB_REF_TYPE}-${GITHUB_REF_NAME//[\/]/-}.${GITHUB_SHA::8}"

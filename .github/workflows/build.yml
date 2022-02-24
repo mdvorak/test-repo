@@ -1,25 +1,17 @@
 name: Build
 
 on:
-  push:
-    branches: [ "main" ]
-    paths-ignore: [ "**.md" ]
-    tags: [ "v* " ]
-  pull_request:
-    branches: [ "**" ]
-    paths-ignore: [ "**.md" ]
-  workflow_dispatch:
   workflow_call:
-  workflow_run:
-    types: [ completed ]
-    workflows: [ release ]
+    inputs:
+      version:
+        description: ""
+        type: string
+        required: true
 
 env:
-  CHART_DIR: chart/
-  CHART_REPOSITORY: https://artifactory.csin.cz/artifactory/devlab-zoo-helm-local
-  # TODO these should be provided by runner
-  ARTIFACTORY_HOST: artifactory.csin.cz
-  MVNW_REPOURL: https://artifactory.csin.cz/artifactory/repo1-maven-org-maven2
+  GITHUB_REF_NAME: ${{ inputs.version }}
+  GITHUB_REF: refs/tags/${{ inputs.version }}
+  GITHUB_REF_TYPE: tag
 
 jobs:
   build:
@@ -35,3 +27,4 @@ jobs:
       - name: Notice
         run: |
           echo "${GITHUB_REF_TYPE}-${GITHUB_REF_NAME//[\/]/-}.${GITHUB_SHA::8}"
+          echo '${{ github.ref_name }}'

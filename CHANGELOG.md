@@ -1,5 +1,21 @@
 # Changelog
 
+### [1.0.2](https://github.com/mdvorak/test-repo/compare/test-repo-v1.0.2-SNAPSHOT...test-repo-v1.0.2) (2022-03-09)
+
+
+### Bug Fixes
+
+* abc ([7fa66a6](https://github.com/mdvorak/test-repo/commit/7fa66a6b3c4cad978a959228c0a0f45ff5d7918f))
+* readme ([7c7cb07](https://github.com/mdvorak/test-repo/commit/7c7cb07c49530eac5e4f4c82aca6adedbdf09cd6))
+* test-repo ([fb31048](https://github.com/mdvorak/test-repo/commit/fb31048fadc4f33a1e4ab8328bbaf07ac78ee77b))
+* test1 ([057a9c3](https://github.com/mdvorak/test-repo/commit/057a9c3e63e638e1e88eab0973feff6f94d94d5f))
+* yoshi ([c5462ef](https://github.com/mdvorak/test-repo/commit/c5462efd43ce967ba8574e231f3001656717d15e))
+
+
+### Documentation
+
+* **foo:** testx asd ([7fa66a6](https://github.com/mdvorak/test-repo/commit/7fa66a6b3c4cad978a959228c0a0f45ff5d7918f))
+
 ### [1.0.1](https://github.com/mdvorak/test-repo/compare/test-repo-v1.0.1-SNAPSHOT...test-repo-v1.0.1) (2022-03-09)
 
 

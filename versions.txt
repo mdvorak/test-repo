@@ -1,2 +1,2 @@
 
-test-repo:1.0.1-SNAPSHOT:1.0.1
+test-repo:1.0.1:1.0.1-SNAPSHOT

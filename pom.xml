@@ -1,5 +1,5 @@
 <project>
   <groupId>org.mdvorak</groupId>
-  <artifactId>test</artifactId>
-  <version>1.0.0</version><!-- {x-version-update:test:current} -->
+  <artifactId>test-repo</artifactId>
+  <version>1.0.0</version><!-- {x-version-update:test-repo:current} -->
 </project>

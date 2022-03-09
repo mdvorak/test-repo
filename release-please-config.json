@@ -1,7 +1,7 @@
 {
   "packages": {
     ".": {
-      "release-type": "java-yoshi",
+      "release-type": "simple",
       "package-name": "test-repo"
     }
   }

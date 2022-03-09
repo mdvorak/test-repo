@@ -1,8 +1,8 @@
 {
   "packages": {
     ".": {
-      "releaseType": "java-simple",
-      "packageName": "test-repo"
+      "release-type": "java-simple",
+      "package-name": "test-repo"
     }
   }
 }

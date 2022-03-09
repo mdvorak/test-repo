@@ -1,14 +1,8 @@
 {
   "packages": {
     ".": {
-      "releaseType": "java-bom",
-      "packageName": "test-repo",
-      "draft": false,
-      "prerelease": false,
-      "bumpMinorPreMajor": false,
-      "bumpPatchForMinorPreMajor": false,
-      "changelogPath": "CHANGELOG.md",
-      "versioning": "default"
+      "releaseType": "java-simple",
+      "packageName": "test-repo"
     }
   }
 }

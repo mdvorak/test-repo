@@ -27,7 +27,7 @@ jobs:
           
           for t in $TAGS; do
             git tag -f "$t"
-            git push origin ":$t"
+            git push origin ":$t" 2>/dev/null || true
             git push origin "$t"
           done
 

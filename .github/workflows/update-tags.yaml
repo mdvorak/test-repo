@@ -23,8 +23,11 @@ jobs:
 
       - name: Update tags
         run: |
-          git tag -f 'v${{ steps.version.outputs.major }}'
-          git tag -f 'v${{ steps.version.outputs.major }}.${{ steps.version.outputs.minor }}'
-      - name: Push tags
-        run: |
-          git push --tags
+          TAGS='v${{ steps.version.outputs.major }}' 'v${{ steps.version.outputs.major }}.${{ steps.version.outputs.minor }}'
+          
+          for t in $TAGS; do
+            git tag -f "$t"
+            git push origin ":$t"
+            git push origin "$t"
+          done
+

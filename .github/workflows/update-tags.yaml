@@ -1,0 +1,30 @@
+name: Update Tags
+
+on:
+  push:
+    tags:
+      - v*.*.*
+
+jobs:
+  generate:
+    runs-on: [ self-hosted, linux, default ]
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Parse semver
+        uses: madhead/semver-utils@1
+        id: version
+        with:
+          version: ${{ github.ref_name }}
+
+      - name: Update tags
+        run: |
+          git tag -f 'v${{ steps.version.outputs.major }}'
+          git tag -f 'v${{ steps.version.outputs.major }}.${{ steps.version.outputs.minor }}'
+      - name: Push tags
+        run: |
+          git push --tags

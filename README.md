@@ -10,3 +10,5 @@ bbb
 <version>1.5.1</version>
 ```
 <!--{x-version-update-end}-->
+
+foo

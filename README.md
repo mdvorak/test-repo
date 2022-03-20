@@ -7,6 +7,6 @@ bbb
 
 <!--{x-version-update-start:test-repo:released}-->
 ```
-<version>1.0.0</version>
+<version>1.5.1</version>
 ```
 <!--{x-version-update-end}-->

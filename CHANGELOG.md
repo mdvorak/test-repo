@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/mdvorak/test-repo/compare/v1.4.0...v1.5.0) (2022-03-20)
+
+
+### Features
+
+* deleted manifest ([db92360](https://github.com/mdvorak/test-repo/commit/db92360c5446ccbc4655bfc6232fb788e1bbd636))
+* release-please ([106ec0b](https://github.com/mdvorak/test-repo/commit/106ec0b57637360321caa571395974517bc621dd))
+
 ## [1.4.0](https://github.com/mdvorak/test-repo/compare/v1.3.1-SNAPSHOT...v1.4.0) (2022-03-10)
 
 

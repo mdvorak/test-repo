@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.5.2](https://github.com/mdvorak/test-repo/compare/v1.5.2-SNAPSHOT...v1.5.2) (2022-03-20)
+
+
+### Bug Fixes
+
+* force push ([c33814f](https://github.com/mdvorak/test-repo/commit/c33814f030d5fc267fcb152c7292b83486805ba8))
+
 ### [1.5.1](https://github.com/mdvorak/test-repo/compare/v1.5.0...v1.5.1) (2022-03-20)
 
 

@@ -12,3 +12,5 @@ bbb
 <!--{x-release-please-released-end}-->
 
 foo
+
+next: 1.5.3 <!--{x-release-please-version}-->

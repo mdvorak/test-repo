@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.5.4](https://github.com/mdvorak/test-repo/compare/v1.5.3...v1.5.4) (2022-03-22)
+
+
+### Documentation
+
+* readme ([f1a6698](https://github.com/mdvorak/test-repo/commit/f1a6698484a214b51d84c24d68109d0aebadb52d))
+
 ### [1.5.3](https://github.com/mdvorak/test-repo/compare/v1.5.2...v1.5.3) (2022-03-22)
 
 

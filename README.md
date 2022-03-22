@@ -7,7 +7,7 @@ bbb
 
 <!--{x-release-please-released-start-version}-->
 ```
-<version>1.5.2</version>
+<version>1.5.3</version>
 ```
 <!--{x-release-please-released-end}-->
 

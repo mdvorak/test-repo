@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.5.3](https://github.com/mdvorak/test-repo/compare/v1.5.2...v1.5.3) (2022-03-22)
+
+
+### Bug Fixes
+
+* update pom.xml properly ([99c9360](https://github.com/mdvorak/test-repo/commit/99c93609e170b52fd316510fd3906bfb38653bd5))
+* update readme ([119f398](https://github.com/mdvorak/test-repo/commit/119f3987cea72d0ff7d7204d8e3f6ef1191e0f16))
+
 ### [1.5.2](https://github.com/mdvorak/test-repo/compare/v1.5.2-SNAPSHOT...v1.5.2) (2022-03-20)
 
 

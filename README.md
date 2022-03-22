@@ -5,10 +5,10 @@ aaa
 test
 bbb
 
-<!--{x-version-update-start:test-repo:released}-->
+<!--{x-release-please-released-start-version}-->
 ```
 <version>1.5.2</version>
 ```
-<!--{x-version-update-end}-->
+<!--{x-release-please-released-end}-->
 
 foo

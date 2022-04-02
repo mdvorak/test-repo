@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.2...test-repo-v1.2.0) (2022-04-02)
+
+
+### Features
+
+* again ([cc9a69f](https://github.com/mdvorak/test-repo/commit/cc9a69fd70b80f2710fdd948703eda81290ccfa9))
+
 ### [1.1.2](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.1...test-repo-v1.1.2) (2022-04-02)
 
 

@@ -7,10 +7,10 @@ bbb
 
 <!--{x-release-please-released-start-version}-->
 ```
-<version>1.5.5</version>
+<version>1.1.0</version>
 ```
 <!--{x-release-please-released-end}-->
 
 foo
 
-next: 1.5.6-SNAPSHOT <!--{x-release-please-version}-->
+next: 1.1.0 <!--{x-release-please-version}-->

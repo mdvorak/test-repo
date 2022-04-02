@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.1.0](https://github.com/mdvorak/test-repo/compare/test-repo-v1.0.2...test-repo-v1.1.0) (2022-04-02)
+
+
+### Features
+
+* delelete versions.txt ([f2f01b3](https://github.com/mdvorak/test-repo/commit/f2f01b32bf3905d5036fa2646b084702f9e3c6aa))
+* deleted manifest ([db92360](https://github.com/mdvorak/test-repo/commit/db92360c5446ccbc4655bfc6232fb788e1bbd636))
+* release-please ([106ec0b](https://github.com/mdvorak/test-repo/commit/106ec0b57637360321caa571395974517bc621dd))
+
+
+### Bug Fixes
+
+* ci ([0d74657](https://github.com/mdvorak/test-repo/commit/0d746572511981d726997cc4e4956ea37acc50e3))
+* config ([31b6d4e](https://github.com/mdvorak/test-repo/commit/31b6d4e7b2d15e41da71999a3bf877630c30ffbd))
+* delete tag ([2c714cd](https://github.com/mdvorak/test-repo/commit/2c714cd5710e0478a33661e76dbbc6f156a6e3d9))
+* docs ([da3085e](https://github.com/mdvorak/test-repo/commit/da3085e46564afc939cde608402ba336c703db02))
+* force push ([c33814f](https://github.com/mdvorak/test-repo/commit/c33814f030d5fc267fcb152c7292b83486805ba8))
+* force push tags ([0500a85](https://github.com/mdvorak/test-repo/commit/0500a854c9cb49e98a1a266eae4959e453c3e0af))
+* readme ([622341d](https://github.com/mdvorak/test-repo/commit/622341d88ab14ad5d3143890da09797bf9e09f8f))
+* simple ([e251de1](https://github.com/mdvorak/test-repo/commit/e251de1fa7c1101ec07966319bf353ce826007fb))
+* trigger ([406baac](https://github.com/mdvorak/test-repo/commit/406baac09c5cdf3cdc028090bd0106ef4c8a51e6))
+* update pom.xml properly ([99c9360](https://github.com/mdvorak/test-repo/commit/99c93609e170b52fd316510fd3906bfb38653bd5))
+* update readme ([119f398](https://github.com/mdvorak/test-repo/commit/119f3987cea72d0ff7d7204d8e3f6ef1191e0f16))
+* update readme as well ([ff9fec3](https://github.com/mdvorak/test-repo/commit/ff9fec3fa9ed4588d5af1f42084c2ebcb8d516e8))
+* versions ([6d46b89](https://github.com/mdvorak/test-repo/commit/6d46b8916526f1c69d4823e45aecf8584928f83e))
+
+
+### Documentation
+
+* readme ([f1a6698](https://github.com/mdvorak/test-repo/commit/f1a6698484a214b51d84c24d68109d0aebadb52d))
+* readme ([3a0003f](https://github.com/mdvorak/test-repo/commit/3a0003f5f8ee4c2dbd298f4b3dfc2731734f3bcb))
+
 ### [1.5.5](https://github.com/mdvorak/test-repo/compare/v1.5.4...v1.5.5) (2022-04-02)
 
 

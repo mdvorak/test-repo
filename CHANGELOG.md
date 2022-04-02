@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.1.2](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.1...test-repo-v1.1.2) (2022-04-02)
+
+
+### Bug Fixes
+
+* compo true ([8870662](https://github.com/mdvorak/test-repo/commit/8870662f47017def72b2437728447b1362fa95a7))
+* manifest with comp ([1b1eeb8](https://github.com/mdvorak/test-repo/commit/1b1eeb81786432ed13c0c3b852eaae973693279a))
+
 ### [1.1.1](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.0...test-repo-v1.1.1) (2022-04-02)
 
 

@@ -1,6 +1,6 @@
 # test-repo
 
-foo
+foobar
 
 test
 bbb

@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.0...test-repo-v1.1.1) (2022-04-02)
+
+
+### Bug Fixes
+
+* try manifest ([0e6adf2](https://github.com/mdvorak/test-repo/commit/0e6adf20ae381ddf1fd21fbd15cbd3ae546a1834))
+
 ## [1.1.0](https://github.com/mdvorak/test-repo/compare/test-repo-v1.0.2...test-repo-v1.1.0) (2022-04-02)
 
 

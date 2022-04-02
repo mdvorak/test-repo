@@ -1,6 +1,6 @@
 # test-repo
 
-trigger
+foo
 
 test
 bbb

@@ -1,7 +1,7 @@
 {
   "packages": {
     ".": {
-      "release-type": "java",
+      "release-type": "maven",
       "package-name": "test-repo",
       "include-component-in-tag": false
     }

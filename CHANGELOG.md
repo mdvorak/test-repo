@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.5.5](https://github.com/mdvorak/test-repo/compare/v1.5.4...v1.5.5) (2022-04-02)
+
+
+### Bug Fixes
+
+* trigger ([406baac](https://github.com/mdvorak/test-repo/commit/406baac09c5cdf3cdc028090bd0106ef4c8a51e6))
+
 ### [1.5.4](https://github.com/mdvorak/test-repo/compare/v1.5.3...v1.5.4) (2022-03-22)
 
 

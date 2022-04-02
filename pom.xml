@@ -4,8 +4,8 @@
     <groupId>org.mdvorak.test</groupId>
     <artifactId>test-repo</artifactId>
 
-    <version>1.5.5-SNAPSHOT</version>
+    <version>1.5.5</version>
     <properties>
-      <released.version>1.5.4</released.version><!-- {x-release-please-released-version} -->
+      <released.version>1.5.5</released.version><!-- {x-release-please-released-version} -->
     </properties>
 </project>

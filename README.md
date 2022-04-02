@@ -13,4 +13,4 @@ bbb
 
 foo
 
-next: 1.1.1 <!--{x-release-please-version}-->
+next: 1.1.2-SNAPSHOT <!--{x-release-please-version}-->

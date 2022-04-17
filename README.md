@@ -15,4 +15,3 @@ foo
 
 next: 1.1.2-SNAPSHOT <!--{x-release-please-version}-->
 
-TODO

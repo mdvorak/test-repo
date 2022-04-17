@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.6.0](https://github.com/mdvorak/test-repo/compare/v1.5.5...v1.6.0) (2022-04-17)
+
+
+### Features
+
+* again cc9a69f
+* test bot 4af26ca
+
+
+### Bug Fixes
+
+* compo true 8870662
+* disable bot 7dc12b7
+* manifest with comp 1b1eeb8
+* try manifest 0e6adf2
+* update README.md 1e017a9, closes #DE-123
+
 ## [1.2.0](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.2...test-repo-v1.2.0) (2022-04-02)
 
 

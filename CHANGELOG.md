@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.6.0](https://github.com/mdvorak/test-repo/compare/v1.5.5...v1.6.0) (2022-04-17)
+
+
+### Features
+
+* again ([cc9a69f](https://github.com/mdvorak/test-repo/commit/cc9a69fd70b80f2710fdd948703eda81290ccfa9))
+* test bot ([4af26ca](https://github.com/mdvorak/test-repo/commit/4af26ca1e9b87817c63057fff40cf3f97c7d69b5))
+
+
+### Bug Fixes
+
+* compo true ([8870662](https://github.com/mdvorak/test-repo/commit/8870662f47017def72b2437728447b1362fa95a7))
+* disable bot ([7dc12b7](https://github.com/mdvorak/test-repo/commit/7dc12b7c25938f7c89241066983926b027ce7668))
+* manifest with comp ([1b1eeb8](https://github.com/mdvorak/test-repo/commit/1b1eeb81786432ed13c0c3b852eaae973693279a))
+* try manifest ([0e6adf2](https://github.com/mdvorak/test-repo/commit/0e6adf20ae381ddf1fd21fbd15cbd3ae546a1834))
+* update README.md ([1e017a9](https://github.com/mdvorak/test-repo/commit/1e017a9b639b79d671105a9908f6895f430987fe)), closes [#DE-123](https://github.com/mdvorak/test-repo/issues/DE-123)
+
 ## [1.2.0](https://github.com/mdvorak/test-repo/compare/test-repo-v1.1.2...test-repo-v1.2.0) (2022-04-02)
 
 

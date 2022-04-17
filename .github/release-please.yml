@@ -1,2 +1,2 @@
 handleGHRelease: true
-releaseType: maven
+releaseType: simple

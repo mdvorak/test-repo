@@ -4,6 +4,7 @@ foobar test
 
 test
 bbb
+test
 
 <!--{x-release-please-released-start-version}-->
 ```

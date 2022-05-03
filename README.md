@@ -5,6 +5,7 @@ foobar test
 test
 bbb
 asd
+
 test
 
 <!--{x-release-please-released-start-version}-->
